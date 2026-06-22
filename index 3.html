@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Benichou Annaëlle - Chirurgien-dentiste</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7fafc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0ea5a4, #14b8a6);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.1rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #0f766e;
+    }
+
+    .info p {
+      margin: 10px 0;
+    }
+
+    .mail-button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 20px;
+      background: #0ea5a4;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+
+    .mail-button:hover {
+      background: #0f766e;
+    }
+
+    .map-link {
+      color: #0ea5a4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 16px 40px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dr Benichou Annaëlle</h1>
+    <p>Chirurgien-dentiste</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Bienvenue</h2>
+      <p>
+        Le cabinet du Dr Benichou Annaëlle accueille les patients pour les consultations,
+        les soins dentaires et le suivi bucco-dentaire dans un cadre professionnel,
+        calme et rassurant.
+      </p>
+    </section>
+
+    <section class="card info">
+      <h2>Informations pratiques</h2>
+      <p><strong>Adresse :</strong> 76 rue Réaumur, 75002 Paris</p>
+      <p><strong>E-mail :</strong> <a href="mailto:dr.annabenichou@gmail.com">dr.annabenichou@gmail.com</a></p>
+      <p>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=76+rue+Réaumur+75002+Paris" target="_blank" rel="noopener noreferrer">
+          Voir l'adresse sur la carte
+        </a>
+      </p>
+      <a class="mail-button" href="mailto:dr.annabenichou@gmail.com">Envoyer un e-mail</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dr Benichou Annaëlle - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
